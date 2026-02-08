@@ -20,6 +20,30 @@ header 4 & 5 mb: 50px;
 others mb: 40px;
 */
 
+
+/* Book Appointment Button */
+.tm-book-appointment-btn {
+  display: inline-block;
+  background-color: #ff5e81; /* pinkish button */
+  color: white;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.tm-book-appointment-btn i {
+  margin-right: 8px; /* space between icon and text */
+}
+
+.tm-book-appointment-btn:hover {
+  background-color: #e0486f; /* darker pink on hover */
+}
+
+
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 19px;
@@ -548,4 +572,5 @@ figure.effect-lexi figcaption::before, figure.effect-lexi p {
 
 @media (max-width: 420px) {
   .tm-section-3-left { padding: 70px 50px 80px 50px; }
+
 }
